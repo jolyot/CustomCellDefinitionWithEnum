@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B26965B9208C605300F6A7DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965B8208C605300F6A7DA /* AppDelegate.swift */; };
-		B26965BB208C605300F6A7DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965BA208C605300F6A7DA /* ViewController.swift */; };
+		B26965BB208C605300F6A7DA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965BA208C605300F6A7DA /* ListViewController.swift */; };
 		B26965BE208C605300F6A7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26965BC208C605300F6A7DA /* Main.storyboard */; };
 		B26965C0208C605300F6A7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26965BF208C605300F6A7DA /* Assets.xcassets */; };
 		B26965C3208C605300F6A7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26965C1208C605300F6A7DA /* LaunchScreen.storyboard */; };
 		B26965CE208C605300F6A7DA /* CustomCellExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965CD208C605300F6A7DA /* CustomCellExampleTests.swift */; };
 		B26965D9208C605300F6A7DA /* CustomCellExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965D8208C605300F6A7DA /* CustomCellExampleUITests.swift */; };
+		B26965E7208C627100F6A7DA /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965E6208C627100F6A7DA /* ListViewModel.swift */; };
+		B26965EB208C62F000F6A7DA /* CustomNo1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965E9208C62F000F6A7DA /* CustomNo1TableViewCell.swift */; };
+		B26965EC208C62F000F6A7DA /* CustomNo1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26965EA208C62F000F6A7DA /* CustomNo1TableViewCell.xib */; };
+		B26965EF208C646500F6A7DA /* CustomNo2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965ED208C646500F6A7DA /* CustomNo2TableViewCell.swift */; };
+		B26965F0208C646500F6A7DA /* CustomNo2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26965EE208C646500F6A7DA /* CustomNo2TableViewCell.xib */; };
+		B26965F3208C647C00F6A7DA /* CustomNo3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965F1208C647C00F6A7DA /* CustomNo3TableViewCell.swift */; };
+		B26965F4208C647C00F6A7DA /* CustomNo3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26965F2208C647C00F6A7DA /* CustomNo3TableViewCell.xib */; };
+		B26965F6208C64AD00F6A7DA /* CustomNo3TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965F5208C64AD00F6A7DA /* CustomNo3TableViewCellViewModel.swift */; };
+		B26965F8208C64C300F6A7DA /* CustomNo2TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965F7208C64C300F6A7DA /* CustomNo2TableViewCellViewModel.swift */; };
+		B26965FA208C64D600F6A7DA /* CustomNo1TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965F9208C64D600F6A7DA /* CustomNo1TableViewCellViewModel.swift */; };
+		B26965FF208C659A00F6A7DA /* ListViewDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26965FE208C659A00F6A7DA /* ListViewDefinition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B26965B5208C605300F6A7DA /* CustomCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26965B5208C605300F6A7DA /* CustomCellDefinitionWithEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellDefinitionWithEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26965B8208C605300F6A7DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B26965BA208C605300F6A7DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26965BA208C605300F6A7DA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		B26965BD208C605300F6A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B26965BF208C605300F6A7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26965C2208C605300F6A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B26965C4208C605300F6A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B26965C9208C605300F6A7DA /* CustomCellExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26965C9208C605300F6A7DA /* CustomCellDefinitionWithEnumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellDefinitionWithEnumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26965CD208C605300F6A7DA /* CustomCellExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellExampleTests.swift; sourceTree = "<group>"; };
 		B26965CF208C605300F6A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B26965D4208C605300F6A7DA /* CustomCellExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26965D4208C605300F6A7DA /* CustomCellDefinitionWithEnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellDefinitionWithEnumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26965D8208C605300F6A7DA /* CustomCellExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellExampleUITests.swift; sourceTree = "<group>"; };
 		B26965DA208C605300F6A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26965E6208C627100F6A7DA /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		B26965E9208C62F000F6A7DA /* CustomNo1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo1TableViewCell.swift; sourceTree = "<group>"; };
+		B26965EA208C62F000F6A7DA /* CustomNo1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNo1TableViewCell.xib; sourceTree = "<group>"; };
+		B26965ED208C646500F6A7DA /* CustomNo2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo2TableViewCell.swift; sourceTree = "<group>"; };
+		B26965EE208C646500F6A7DA /* CustomNo2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNo2TableViewCell.xib; sourceTree = "<group>"; };
+		B26965F1208C647C00F6A7DA /* CustomNo3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo3TableViewCell.swift; sourceTree = "<group>"; };
+		B26965F2208C647C00F6A7DA /* CustomNo3TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNo3TableViewCell.xib; sourceTree = "<group>"; };
+		B26965F5208C64AD00F6A7DA /* CustomNo3TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo3TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		B26965F7208C64C300F6A7DA /* CustomNo2TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo2TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		B26965F9208C64D600F6A7DA /* CustomNo1TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNo1TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		B26965FE208C659A00F6A7DA /* ListViewDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDefinition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +109,9 @@
 		B26965B6208C605300F6A7DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B26965B5208C605300F6A7DA /* CustomCellExample.app */,
-				B26965C9208C605300F6A7DA /* CustomCellExampleTests.xctest */,
-				B26965D4208C605300F6A7DA /* CustomCellExampleUITests.xctest */,
+				B26965B5208C605300F6A7DA /* CustomCellDefinitionWithEnum.app */,
+				B26965C9208C605300F6A7DA /* CustomCellDefinitionWithEnumTests.xctest */,
+				B26965D4208C605300F6A7DA /* CustomCellDefinitionWithEnumUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				B26965B8208C605300F6A7DA /* AppDelegate.swift */,
-				B26965BA208C605300F6A7DA /* ViewController.swift */,
+				B26965BA208C605300F6A7DA /* ListViewController.swift */,
+				B26965E6208C627100F6A7DA /* ListViewModel.swift */,
+				B26965FE208C659A00F6A7DA /* ListViewDefinition.swift */,
+				B26965E8208C629700F6A7DA /* Cell */,
 				B26965BC208C605300F6A7DA /* Main.storyboard */,
 				B26965BF208C605300F6A7DA /* Assets.xcassets */,
 				B26965C1208C605300F6A7DA /* LaunchScreen.storyboard */,
@@ -125,12 +150,52 @@
 			path = CustomCellExampleUITests;
 			sourceTree = "<group>";
 		};
+		B26965E8208C629700F6A7DA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B26965FB208C64EF00F6A7DA /* CustomNo1Cell */,
+				B26965FC208C650A00F6A7DA /* CustomNo2Cell */,
+				B26965FD208C654100F6A7DA /* CustomNo3Cell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B26965FB208C64EF00F6A7DA /* CustomNo1Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B26965E9208C62F000F6A7DA /* CustomNo1TableViewCell.swift */,
+				B26965F9208C64D600F6A7DA /* CustomNo1TableViewCellViewModel.swift */,
+				B26965EA208C62F000F6A7DA /* CustomNo1TableViewCell.xib */,
+			);
+			path = CustomNo1Cell;
+			sourceTree = "<group>";
+		};
+		B26965FC208C650A00F6A7DA /* CustomNo2Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B26965ED208C646500F6A7DA /* CustomNo2TableViewCell.swift */,
+				B26965F7208C64C300F6A7DA /* CustomNo2TableViewCellViewModel.swift */,
+				B26965EE208C646500F6A7DA /* CustomNo2TableViewCell.xib */,
+			);
+			path = CustomNo2Cell;
+			sourceTree = "<group>";
+		};
+		B26965FD208C654100F6A7DA /* CustomNo3Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B26965F1208C647C00F6A7DA /* CustomNo3TableViewCell.swift */,
+				B26965F5208C64AD00F6A7DA /* CustomNo3TableViewCellViewModel.swift */,
+				B26965F2208C647C00F6A7DA /* CustomNo3TableViewCell.xib */,
+			);
+			path = CustomNo3Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B26965B4208C605300F6A7DA /* CustomCellExample */ = {
+		B26965B4208C605300F6A7DA /* CustomCellDefinitionWithEnum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B26965DD208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExample" */;
+			buildConfigurationList = B26965DD208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnum" */;
 			buildPhases = (
 				B26965B1208C605300F6A7DA /* Sources */,
 				B26965B2208C605300F6A7DA /* Frameworks */,
@@ -140,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = CustomCellExample;
+			name = CustomCellDefinitionWithEnum;
 			productName = CustomCellExample;
-			productReference = B26965B5208C605300F6A7DA /* CustomCellExample.app */;
+			productReference = B26965B5208C605300F6A7DA /* CustomCellDefinitionWithEnum.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B26965C8208C605300F6A7DA /* CustomCellExampleTests */ = {
+		B26965C8208C605300F6A7DA /* CustomCellDefinitionWithEnumTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B26965E0208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExampleTests" */;
+			buildConfigurationList = B26965E0208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnumTests" */;
 			buildPhases = (
 				B26965C5208C605300F6A7DA /* Sources */,
 				B26965C6208C605300F6A7DA /* Frameworks */,
@@ -158,14 +223,14 @@
 			dependencies = (
 				B26965CB208C605300F6A7DA /* PBXTargetDependency */,
 			);
-			name = CustomCellExampleTests;
+			name = CustomCellDefinitionWithEnumTests;
 			productName = CustomCellExampleTests;
-			productReference = B26965C9208C605300F6A7DA /* CustomCellExampleTests.xctest */;
+			productReference = B26965C9208C605300F6A7DA /* CustomCellDefinitionWithEnumTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B26965D3208C605300F6A7DA /* CustomCellExampleUITests */ = {
+		B26965D3208C605300F6A7DA /* CustomCellDefinitionWithEnumUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B26965E3208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExampleUITests" */;
+			buildConfigurationList = B26965E3208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnumUITests" */;
 			buildPhases = (
 				B26965D0208C605300F6A7DA /* Sources */,
 				B26965D1208C605300F6A7DA /* Frameworks */,
@@ -176,9 +241,9 @@
 			dependencies = (
 				B26965D6208C605300F6A7DA /* PBXTargetDependency */,
 			);
-			name = CustomCellExampleUITests;
+			name = CustomCellDefinitionWithEnumUITests;
 			productName = CustomCellExampleUITests;
-			productReference = B26965D4208C605300F6A7DA /* CustomCellExampleUITests.xctest */;
+			productReference = B26965D4208C605300F6A7DA /* CustomCellDefinitionWithEnumUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B26965B0208C605300F6A7DA /* Build configuration list for PBXProject "CustomCellExample" */;
+			buildConfigurationList = B26965B0208C605300F6A7DA /* Build configuration list for PBXProject "CustomCellDefinitionWithEnum" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +285,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B26965B4208C605300F6A7DA /* CustomCellExample */,
-				B26965C8208C605300F6A7DA /* CustomCellExampleTests */,
-				B26965D3208C605300F6A7DA /* CustomCellExampleUITests */,
+				B26965B4208C605300F6A7DA /* CustomCellDefinitionWithEnum */,
+				B26965C8208C605300F6A7DA /* CustomCellDefinitionWithEnumTests */,
+				B26965D3208C605300F6A7DA /* CustomCellDefinitionWithEnumUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +300,9 @@
 				B26965C3208C605300F6A7DA /* LaunchScreen.storyboard in Resources */,
 				B26965C0208C605300F6A7DA /* Assets.xcassets in Resources */,
 				B26965BE208C605300F6A7DA /* Main.storyboard in Resources */,
+				B26965F0208C646500F6A7DA /* CustomNo2TableViewCell.xib in Resources */,
+				B26965EC208C62F000F6A7DA /* CustomNo1TableViewCell.xib in Resources */,
+				B26965F4208C647C00F6A7DA /* CustomNo3TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26965BB208C605300F6A7DA /* ViewController.swift in Sources */,
+				B26965BB208C605300F6A7DA /* ListViewController.swift in Sources */,
+				B26965F8208C64C300F6A7DA /* CustomNo2TableViewCellViewModel.swift in Sources */,
+				B26965FA208C64D600F6A7DA /* CustomNo1TableViewCellViewModel.swift in Sources */,
+				B26965FF208C659A00F6A7DA /* ListViewDefinition.swift in Sources */,
+				B26965F3208C647C00F6A7DA /* CustomNo3TableViewCell.swift in Sources */,
 				B26965B9208C605300F6A7DA /* AppDelegate.swift in Sources */,
+				B26965F6208C64AD00F6A7DA /* CustomNo3TableViewCellViewModel.swift in Sources */,
+				B26965E7208C627100F6A7DA /* ListViewModel.swift in Sources */,
+				B26965EB208C62F000F6A7DA /* CustomNo1TableViewCell.swift in Sources */,
+				B26965EF208C646500F6A7DA /* CustomNo2TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +361,12 @@
 /* Begin PBXTargetDependency section */
 		B26965CB208C605300F6A7DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B26965B4208C605300F6A7DA /* CustomCellExample */;
+			target = B26965B4208C605300F6A7DA /* CustomCellDefinitionWithEnum */;
 			targetProxy = B26965CA208C605300F6A7DA /* PBXContainerItemProxy */;
 		};
 		B26965D6208C605300F6A7DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B26965B4208C605300F6A7DA /* CustomCellExample */;
+			target = B26965B4208C605300F6A7DA /* CustomCellDefinitionWithEnum */;
 			targetProxy = B26965D5208C605300F6A7DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +538,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellExample.app/CustomCellExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellDefinitionWithEnum.app/CustomCellDefinitionWithEnum";
 			};
 			name = Debug;
 		};
@@ -478,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellExample.app/CustomCellExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellDefinitionWithEnum.app/CustomCellDefinitionWithEnum";
 			};
 			name = Release;
 		};
@@ -515,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B26965B0208C605300F6A7DA /* Build configuration list for PBXProject "CustomCellExample" */ = {
+		B26965B0208C605300F6A7DA /* Build configuration list for PBXProject "CustomCellDefinitionWithEnum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B26965DB208C605300F6A7DA /* Debug */,
@@ -524,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B26965DD208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExample" */ = {
+		B26965DD208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B26965DE208C605300F6A7DA /* Debug */,
@@ -533,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B26965E0208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExampleTests" */ = {
+		B26965E0208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnumTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B26965E1208C605300F6A7DA /* Debug */,
@@ -542,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B26965E3208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellExampleUITests" */ = {
+		B26965E3208C605300F6A7DA /* Build configuration list for PBXNativeTarget "CustomCellDefinitionWithEnumUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B26965E4208C605300F6A7DA /* Debug */,
